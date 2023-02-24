@@ -6,6 +6,7 @@ public abstract class Vehicle {
         this.modelName = modelName;
         this.wheelsCount = wheelsCount;
     }
+
     public void updateTyre() {
         System.out.println("Меняем покрышку");
     }
